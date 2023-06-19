@@ -112,7 +112,7 @@ body {
   margin-bottom: 10px;
 }
 
-.game-info ol li button {
+.game-info ol li button, button {
   background-color: #f3f3f3;
   border: none;
   border-radius: 5px;
@@ -128,8 +128,18 @@ body {
   background-color: #e0e0e0;
 }
 
-.game-info ol li button:focus {
-  outline: none;
+.game-info button{
+  background-color: #f14923;
+  color: #f3f3f3;
 }
+
+.game-info button:hover{
+  background-color: #cc2e0b;
+}
+
+
+
+
+
 
 
